@@ -38,7 +38,6 @@ object Libraries {
         const val ktx = "1.5.0-alpha04"
         const val hilt = "1.0.0-alpha02"
         const val viewModel = "2.3.0-beta01"
-        const val liveData = "2.3.0-beta01"
         const val fragment = "1.3.0-beta01"
         const val material = "1.3.0-alpha03"
         const val constraintLayout = "2.0.4"
