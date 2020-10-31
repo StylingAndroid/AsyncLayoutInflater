@@ -24,6 +24,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true
     }
     kotlinOptions {
         jvmTarget = "1.8"
@@ -34,14 +35,17 @@ android {
 dependencies {
     implementation Libraries.kotlinStdLib
     implementation Libraries.appCompat
+    implementation Libraries.asyncLayoutInflater
     implementation Libraries.ktxCore
     implementation Libraries.ktxFragment
     implementation Libraries.material
     implementation Libraries.constraintLayout
     implementation Libraries.vectorDrawable
+    implementation Libraries.timber
     implementation Libraries.hilt
     implementation Libraries.hiltLifecycle
     kapt Libraries.hiltCompiler
+    coreLibraryDesugaring Libraries.coreLibraryDesugaring
 }
 
 detekt {

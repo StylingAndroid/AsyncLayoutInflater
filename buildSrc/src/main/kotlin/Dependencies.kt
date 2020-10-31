@@ -37,15 +37,19 @@ object Libraries {
         const val appCompat = "1.3.0-alpha02"
         const val ktx = "1.5.0-alpha04"
         const val hilt = "1.0.0-alpha02"
+        const val asyncLayoutInflater = "1.0.0"
         const val viewModel = "2.3.0-beta01"
         const val fragment = "1.3.0-beta01"
         const val material = "1.3.0-alpha03"
         const val constraintLayout = "2.0.4"
         const val vectorDrawable = "1.2.0-alpha02"
+        const val coreLibraryDesugaring = "1.0.9"
+        const val timber = "4.7.1"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
+    const val asyncLayoutInflater = "androidx.asynclayoutinflater:asynclayoutinflater:${Versions.asyncLayoutInflater}"
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
     const val ktxFragment = "androidx.fragment:fragment-ktx:${Versions.fragment}"
     const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.viewModel}"
@@ -55,4 +59,6 @@ object Libraries {
     const val hiltLifecycle = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hilt}"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val vectorDrawable = "androidx.vectordrawable:vectordrawable:${Versions.vectorDrawable}"
+    const val coreLibraryDesugaring = "com.android.tools:desugar_jdk_libs:${Versions.coreLibraryDesugaring}"
+    const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 }
